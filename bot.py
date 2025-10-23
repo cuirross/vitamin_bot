@@ -4,10 +4,10 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 from datetime import datetime, time, timedelta
 import pytz
-
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 # 🔹 Токен бота
-BOT_TOKEN = "7694134254:AAHs1HdxNZLlVzJSzEt8AasYnXVQuYvm8AI"
-
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 # 🔹 ID пользователей
 GIRLFRIEND_ID = 1380413600  # 👩‍🦰 Машуля
 YOUR_ID = 397100539          # 👦 Твой ID

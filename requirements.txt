@@ -1,2 +1,6 @@
 aiogram==2.25.1
-pytz
+pytz==2025.2
+aiohttp==3.8.6
+Babel==2.9.1
+magic-filter==1.0.12
+
